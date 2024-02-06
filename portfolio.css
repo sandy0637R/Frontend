@@ -1,0 +1,31 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+    font-family: sans-serif;
+    justify-content: space-between;
+    color: white;
+}
+.menubar {
+ background-color: rgb(22, 22, 22);
+ text-align: center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.info{
+    position: absolute; height: 250px; width: 900px;left: 0px;
+    padding: 60px;
+    margin: 60px;
+}
