@@ -23,9 +23,25 @@ body
     width: 120px;
     padding: 15px;
     margin: 15px;
+    text-decoration: none;
+}
+.menubar ul li:hover{
+    background-color: black;
 }
 .info{
-    position: absolute; height: 250px; width: 900px;left: 0px;
+    display: inline-block;
     padding: 60px;
     margin: 60px;
+}
+.click{
+    padding: 10px 25px 10px 25px;
+    background-color: aqua;
+    border: 1px black;
+    height: fit-content;    
+    width: fit-content;
+    text-decoration: none;
+}
+.click:hover{
+    background-color: rgb(62, 61, 61);
+    color: yellow;
 }
